@@ -34,7 +34,6 @@ export default {
                     alert('Societe introuvable.');
                 } else {
                     const comp = {
-                        id: 2,
                         ide: data[0].uid,
                         nom: data[0].name,
                         adresse: data[0].address.houseNumber + ' ' + data[0].address.street + ', ' +  data[0].address.city + ', ' + data[0].address.swissZipCode,
